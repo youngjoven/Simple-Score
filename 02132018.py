@@ -1,6 +1,6 @@
 class HashTable:
     def __init__(self):
-        self.size = 2
+        self.size = 10
         self.slots = [None]*self.size
         self.data=[None]*self.size
     def put(self, key, data):
